@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */ 
+        p {
+            color: red;   
+            border-style: dashed;
+        }
+
+
+        /* id selector */
+        #heading {
+            color: green;
+            border-style: solid double;
+            border-radius: 5px;
+            /* frist is for top and second is dotted for left and right and third is bottom  */
+            /* for two value =first is top bottom and second is right left */
+
+            border-width: 15px;
+            border-color: chocolate green yellow red;
+
+            /* shorthand  */
+
+            /* t-r-b-l  is it sequneces trobal*/ 
+
+        }
+
+        
+        /* this is class */
+        .para {
+            color: yellow;
+        }
+
+        /* universal selector */
+        * {
+            background-color: sandybrown;
+        }
+        .head {
+            background-color: blueviolet;
+            opacity: 0.5;
+
+        }
+
+        body {
+        /* background-image: url(nn.jpg); */
+        /* background-repeat: no-repeat;
+        background-repeat: repeat-x; */
+        /* background-repeat: repeat-y;  */
+        /* background-position: right top; */
+        /* background-attachment: fixed; */
+
+        /* shorthand */
+        background: url(nn.jpg) no-repeat right top fixed;
+        }
+        h1.frist {
+            background-color: tomato;
+        }
+
+    </style> 
+</head>
+
+<body>
+    <h1 style="color: blue;" class="frist">this is my heading</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, harum.</p>
+
+    <!-- this is id selector -->
+    <h3 id="heading" class="frist"> this is my second heading</h3>
+
+    <!-- this is class selector -->
+    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Dolore odit nostrum nesciunt. Ullam, dolor optio.</p>
+
+    <h4 class="head">this is my fourth heading</h4>
+
+    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ex.</p>
+    <img src="dddd.png" alt="Description of the image"> 
+    
+</body>
+</html> 
+
